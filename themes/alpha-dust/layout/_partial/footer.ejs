@@ -1,18 +1,23 @@
 <div class="push"></div>
-
 <footer class="footer-content">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
-                <h2><%- __('about') %></h2>
+                <h2>
+                    <%- __('齐码蓝智能') %>
+                </h2>
                 <p>
-                    <%- theme.footer_about %>
+                    电子邮箱：
+                    <%- config.email %>
+                </p>
+                <p>
+                    公众号：
+                    <img src="/img/qrcode.jpg" style="width: 100px;">
                 </p>
             </div>
-            <%- partial('footer_recent_posts') %>
-            <%- partial('footer_categories') %>
+            <!-- <%- partial('footer_categories') %> -->
         </div>
-        <div class="row">
+   <!--      <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <ul class="list-inline footer-social-icons">
                     <% if(theme.github_url) { %>
@@ -107,7 +112,7 @@
                     <% } %>
                 </ul>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="footer-copyright">

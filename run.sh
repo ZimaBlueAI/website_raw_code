@@ -36,9 +36,6 @@ vi _config.yml
 #   repository: git@github.com:用户名/用户名.github.io.git
 #   branch: master
 
-## 发布
-hexo d
-
 ## 编辑页面
 # 在themes/alpha-dust/source/img中增加图片
 # 编辑 themes/alpha-dust/layout/_partial/header.ejs修改首页header样式
@@ -57,3 +54,16 @@ vi themes/alpha-dust/source/css/_partial/post-layout.styl
 # 修改menu为中文
 vi themes/alpha-dust/_config.yml
 # 增加文章
+hexo new "Machine vision recognition of vehicles"
+
+## 发布
+hexo d
+## 将原始代码提交到https://github.com/ZimaBlueAI/website_raw_code
+
+## 解决无法访问的问题，参考https://blog.csdn.net/qq_40157728/article/details/114327987
+
+---------
+## 增加文章
+hexo new "Machine vision in ecological protection"
+hexo new "Machine vision in agriculture"
+

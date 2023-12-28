@@ -10,6 +10,8 @@ menu:
   # Categories: /categories
   联系我们: /contact
 
+# favicon: /favicon.ico
+
 # Default post title
 default_post_title: Untitled
 
@@ -21,24 +23,12 @@ comments:
   # Disqus comments
   disqus_shortname:
 
-# Google Analytics Tracking ID
-google_analytics:
-
 # Social Accounts
-twitter_url: https://twitter.com/?lang=en
-facebook_url: https://www.facebook.com/
-instagram_url: https://www.instagram.com/
-dribble_url: https://dribbble.com/
-github_url: https://github.com/klugjo/hexo-theme-alpha-dust
-telegram_url: https://telegram.org/
-behance_url: https://www.behance.net/
-fivehundredpx_url: https://500px.com/
-email_url: test@example.com
-rss_url: \#
+# email_url: test@example.com
 
 # Footer About Text
-footer_about: "This theme was developed by <a href=\"https://github.com/klugjo\">Jonathan Klughertz</a>. The source code is available on Github. Create Websites. Make Magic."
+# footer_about: "This theme was developed by <a href=\"https://github.com/klugjo\">Jonathan Klughertz</a>. The source code is available on Github. Create Websites. Make Magic."
 
 # Footer Copyright Line
-footer_copyright: "@Untitled. All right reserved | Design & Hexo <a href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
+footer_copyright: "齐码蓝智能科技（大理市）有限责任公司 版权所有"
 
